@@ -1,10 +1,4 @@
 # Remitee Challenge Backend
-
-![.NET](https://img.shields.io/badge/.NET-8.0-blue)
-![SQL Server](https://img.shields.io/badge/SQL%20Server-2019-blue)
-![C#](https://img.shields.io/badge/C%23-10-green)
-![Clean Architecture](https://img.shields.io/badge/Clean-Architecture-orange)
-
 ---
 
 ## 🏗️ Descripción del Proyecto
@@ -141,8 +135,3 @@ Cobertura: Validación de servicios, handlers de CQRS y repositorios.
 Método	Endpoint	Descripción	URL Swagger
 GET	/api/Book/GetAllWithPagination	Obtener todos los libros con paginación	Swagger UI
 POST	/api/Book/AddBook	Inserta un nuevo libro	Swagger UI
-
-Ejemplo GET /api/Book/GetAllWithPagination
-http
-Copiar código
-GET https://localhost:7132/api/Book/GetAllWithPagination?pageNumber=1&pageSize=10
