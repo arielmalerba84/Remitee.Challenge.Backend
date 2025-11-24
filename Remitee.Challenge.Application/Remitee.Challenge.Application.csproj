@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Folder Include="Interface\" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="FluentValidation" Version="12.1.0" />
+		<PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="12.1.0" />
+		<PackageReference Include="Mapster" Version="7.4.0" />
+		<PackageReference Include="Mapster.DependencyInjection" Version="1.0.1" />
+		<PackageReference Include="Mapster.EFCore" Version="5.1.1" />
+		<PackageReference Include="MediatR" Version="13.1.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.3.0" />
+		<!-- O eliminas esta línea o la actualizas -->
+		<!-- <PackageReference Include="Microsoft.OpenApi" Version="1.6.23" /> -->
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Remitee.Challenge.Domain\Remitee.Challenge.Domain.csproj" />
+		<ProjectReference Include="..\Remitee.Challenge.Infraestructure\Remitee.Challenge.Infraestructure.csproj" />
+	</ItemGroup>
+
+</Project>

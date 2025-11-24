@@ -1,0 +1,6 @@
+@Remiteee.Challenge.API_HostAddress = http://localhost:5026
+
+GET {{Remiteee.Challenge.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

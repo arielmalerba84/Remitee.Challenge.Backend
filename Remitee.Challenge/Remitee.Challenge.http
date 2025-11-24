@@ -1,0 +1,6 @@
+@Remitee.Challenge_HostAddress = http://localhost:5237
+
+GET {{Remitee.Challenge_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
